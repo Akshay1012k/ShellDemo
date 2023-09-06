@@ -6,13 +6,25 @@
 				"name": "Filter1",
 				"type": "Filter",
 				"dependsOn": [],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"items": "",
+					"condition": {
+						"value": "@not(equals(item(),'ccc'))",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"parameters": {
 			"account_name": {
-				"type": "string",
-				"defaultValue": "adf_69"
+				"type": "array",
+				"defaultValue": [
+					"aaa",
+					"bbb",
+					"ccc",
+					"ddd"
+				]
 			}
 		},
 		"annotations": []
