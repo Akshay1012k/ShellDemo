@@ -9,7 +9,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@pipeline().parameters.account_nameArray",
+						"value": "@pipeline().parameters.account_name",
 						"type": "Expression"
 					},
 					"condition": {
@@ -23,10 +23,10 @@
 			"account_name": {
 				"type": "array",
 				"defaultValue": [
-					"aaa",
-					"bbb",
-					"ccc",
-					"ddd"
+					"a",
+					"b",
+					"c",
+					"d"
 				]
 			}
 		},
