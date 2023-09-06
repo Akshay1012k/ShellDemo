@@ -19,6 +19,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"account_name": {
+				"type": "string",
+				"defaultValue": "adf-69"
+			}
+		},
 		"variables": {
 			"DataArray": {
 				"type": "Array",
