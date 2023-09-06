@@ -1,0 +1,22 @@
+{
+	"name": "SourceDataset_i8p",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsdrax",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "draxcont1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": null
+		},
+		"schema": []
+	}
+}
